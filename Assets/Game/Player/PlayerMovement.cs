@@ -8,10 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
-    [SerializeField]
-    private float moveSpeed;
-
-    public float jumpSpeed;
+    private float moveSpeed = 6f;
+    private float jumpSpeed = 4f;
 
     [SerializeField]
     private LayerMask groundMask;
@@ -20,8 +18,6 @@ public class PlayerMovement : MonoBehaviour
 
     private AudioSource audioSource;
 
-    [SerializeField]
-    private AudioClip jumpClip;
 
     void Start()
     {
@@ -62,17 +58,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && IsGrounded())
         {
-            audioSource.clip = jumpClip;
-
-            audioSource.Play();
-
             canJump = false;
             animator.SetBool("Jump", true);
             rigidBody2D.AddForce(new Vector2(0, jumpSpeed * 100));
             StartCoroutine(JumpCoolDown());
         }
-
-        else if (IsGrounded()) animator.SetBool("Jump", false);
     }
 
     private bool IsGrounded()
