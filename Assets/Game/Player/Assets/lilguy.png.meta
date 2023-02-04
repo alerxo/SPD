@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 22ae5a6e5bfe330449f897692a5db381
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lilguy_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 664
+        width: 548
+        height: 321
+      alignment: 9
+      pivot: {x: 0.47315833, y: 0.10521624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e85125549d9a4b41a533c8c952bb1a4
+      internalID: 461129198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 522
+        width: 145
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8355413, y: 0.40411067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7738c7576f0c14449898e44f056f5ffb
+      internalID: 178602816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 510
+        width: 141
+        height: 54
+      alignment: 9
+      pivot: {x: 0.8450603, y: 0.39523202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e155ba6a80f1e48baefaa910b4ef2a
+      internalID: -331523271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 356
+        width: 65
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58beec407f86f384f81b0d9b7b42b3c5
+      internalID: -782794550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 471
+        width: 140
+        height: 54
+      alignment: 9
+      pivot: {x: 0.15247497, y: 0.5419057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8b70eebaea2dd4498b38b66956e760
+      internalID: -438273655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_5
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 457
+        width: 141
+        height: 54
+      alignment: 9
+      pivot: {x: 0.14691421, y: 0.47904572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8467e2e69d9b784bace7359b1e57d1b
+      internalID: -413758323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 272
+        width: 100
+        height: 164
+      alignment: 9
+      pivot: {x: 0.76023954, y: 0.83116335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc0ca616e9177e4b9daa23c47e6bd59
+      internalID: 830291972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 230
+        width: 110
+        height: 208
+      alignment: 9
+      pivot: {x: 0.2119873, y: 0.90254474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eebc212487a8cc4b8818b59b34e5c11
+      internalID: 1997261092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 91
+        height: 189
+      alignment: 9
+      pivot: {x: 0.7238082, y: 0.8232786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aa614b6b7476f4683d078b472d5529
+      internalID: 1387733677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilguy_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 16
+        width: 132
+        height: 158
+      alignment: 9
+      pivot: {x: 0.21713072, y: 0.81509477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed9702dedb65e48ab1df96f0716471
+      internalID: -1498707240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lilguy_9: -1498707240
+      lilguy_3: -782794550
+      lilguy_1: 178602816
+      lilguy_4: -438273655
+      lilguy_8: 1387733677
+      lilguy_2: -331523271
+      lilguy_5: -413758323
+      lilguy_6: 830291972
+      lilguy_7: 1997261092
+      lilguy_0: 461129198
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
