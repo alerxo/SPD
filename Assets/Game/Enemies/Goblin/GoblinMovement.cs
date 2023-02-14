@@ -32,6 +32,6 @@ public class GoblinMovement : MonoBehaviour
             movement = new Vector2(-1, 0);
         }
 
-        gameObject.transform.Translate(movement * Time.deltaTime * 1f);
+        gameObject.transform.Translate((movement * 2f) * Time.deltaTime * 1f);
     }
 }

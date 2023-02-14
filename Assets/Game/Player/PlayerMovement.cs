@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     private float moveSpeed = 6f;
-    private float jumpSpeed = 4f;
+    private float jumpSpeed = 6f;
 
     [SerializeField]
     private LayerMask groundMask;
@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        if (Physics2D.BoxCast(transform.position, new Vector2(0.9f, 0.1f), 0, -transform.up, 0.7f, groundMask) && canJump) return true;
+        if (Physics2D.BoxCast(transform.position, new Vector2(0.2f, 0.1f), 0, -transform.up, 0.48f, groundMask) && canJump) return true;
         else return false;
     }
 

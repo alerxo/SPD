@@ -8,7 +8,7 @@ public class GoblinCombat : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            collision.gameObject.SendMessage("DamageTaken", 1f);
+            collision.gameObject.SendMessage("DamageTaken", 5f);
         }
     }
 
