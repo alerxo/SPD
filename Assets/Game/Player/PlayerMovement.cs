@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     private float moveSpeed = 6f;
+    private float tempMoveSpeed;
     private float jumpSpeed = 6f;
 
     [SerializeField]
@@ -29,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        ResetMovementSpeed();
     }
 
     void Update()
@@ -51,7 +54,17 @@ public class PlayerMovement : MonoBehaviour
         if (horizontal.x > 0) spriteRenderer.flipX = false;
         else if (horizontal.x < 0) spriteRenderer.flipX = true;
 
-        gameObject.transform.Translate(horizontal * Time.fixedDeltaTime * moveSpeed);
+        gameObject.transform.Translate(horizontal * Time.fixedDeltaTime * tempMoveSpeed);
+    }
+
+    public void ChangeMovementSpeed(float speed)
+    {
+        tempMoveSpeed = speed;
+    }
+
+    public void ResetMovementSpeed()
+    {
+        tempMoveSpeed = moveSpeed;
     }
 
     private void Jump()

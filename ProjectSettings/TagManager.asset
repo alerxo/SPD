@@ -9,6 +9,7 @@ TagManager:
   - Quest
   - Portal
   - Coin
+  - Box
   layers:
   - Default
   - TransparentFX
