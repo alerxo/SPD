@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         if (Physics2D.BoxCast(transform.position, new Vector2(0.2f, 0.1f), 0, -transform.up, 0.48f, groundMask) && canJump) return true;
         else return false;

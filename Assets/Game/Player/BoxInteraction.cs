@@ -10,7 +10,7 @@ public class BoxInteraction : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.E) && gameObject.GetComponent<PlayerMovement>().IsGrounded())
         {
             GetBox();
         }
